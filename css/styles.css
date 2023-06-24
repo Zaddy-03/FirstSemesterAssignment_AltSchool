@@ -5,9 +5,7 @@
 }
 
 body {
-  /* font-family: 'Inter', sans-serif; */
   font-family: "gilroy-medium", sanserif;
-
   line-height: 1.5;
 }
 
@@ -263,24 +261,24 @@ header {
   }
 }
 
-/* Views */
-.views {
+/* View */
+.view {
   padding: 3.875rem 0;
   background: #f9fbfd;
 }
 
-.views-center {
+.view-center {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.views-title,
+.view-title,
 .features-title {
   font-size: 2rem;
 }
 
-.views-list {
+.view-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -298,13 +296,13 @@ header {
 }
 
 @media screen and (min-width: 900px) {
-  .views-center {
+  .view-center {
     flex-direction: row;
     justify-content: space-between;
     gap: 4rem;
   }
 
-  .views-list {
+  .view-list {
     display: flex;
     gap: 3rem;
   }
@@ -369,7 +367,7 @@ header {
     font-size: 2rem;
   }
 
-  .views-title,
+  .view-title,
   .features-title,
   .pricing-title {
     font-size: 2.5rem;
